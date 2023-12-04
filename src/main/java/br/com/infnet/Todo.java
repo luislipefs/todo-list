@@ -2,8 +2,8 @@ package br.com.infnet;
 
 public class Todo {
     private static int contadorTarefas = 0;
-    private int id;
-    private String descricao;
+    private final int id;
+    private final String descricao;
 
     public Todo(String descricao) {
         this.id = ++contadorTarefas;

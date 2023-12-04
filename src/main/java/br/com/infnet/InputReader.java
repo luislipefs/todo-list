@@ -1,7 +1,7 @@
 package br.com.infnet;
 import java.util.Scanner;
 public class InputReader {
-    private Scanner scanner;
+    private final Scanner scanner;
 
     public InputReader() {
         this.scanner = new Scanner(System.in);
