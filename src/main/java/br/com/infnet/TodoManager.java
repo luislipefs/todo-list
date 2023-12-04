@@ -33,6 +33,7 @@ public class TodoManager {
     }
 
     private void adicionarTarefa() {
+        System.out.println("Iniciando adição de tarefa...");
         System.out.print("Digite a tarefa: ");
         String descricao = inputReader.lerString();
         Todo novaTarefa = new Todo(descricao);
